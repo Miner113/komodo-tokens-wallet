@@ -1,6 +1,5 @@
 <div align="center">
 
-  <h1><code>Komodo Tokens Web Wallet</code></h1>
 
   <h3>
     <a href="#usage">Usage</a>
