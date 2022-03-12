@@ -1,5 +1,5 @@
-const explorerApiUrl = 'https://explorer.komodoplatform.com:10000/tokensv2/api/';
-const coin = 'TOKENSV2';
+const explorerApiUrl = 'https://explorer.grms.pw/insight-api-komodo/';
+const coin = 'GRMS';
 const explorerUrl = 'http://explorer.komodoplatform.com:20000/tokens';
 const txBuilderApi = 'insight'; // default|insight
 const faucetURL = 'https://www.atomicexplorer.com/#/faucet/tokensv2/';
