@@ -54,7 +54,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _cry
 /*! exports provided: name, version, description, main, scripts, repository, keywords, author, license, bugs, homepage, engines, devDependencies, browserslist, dependencies, default */
 /***/ (function(module) {
 
-eval("module.exports = JSON.parse(\"{\\\"name\\\":\\\"komodo-tokens-wallet\\\",\\\"version\\\":\\\"0.2.4\\\",\\\"description\\\":\\\"Komodo Tokens Web Wallet (CryptoConditions)\\\",\\\"main\\\":\\\"index.js\\\",\\\"scripts\\\":{\\\"start\\\":\\\"webpack-dev-server --define DEBUG\\\",\\\"build\\\":\\\"webpack --config webpack.config.js\\\",\\\"predeploy\\\":\\\"npm run build\\\",\\\"deploy\\\":\\\"gh-pages -d build\\\",\\\"build-cclib\\\":\\\"./build-cryptoconditions-lib.sh\\\",\\\"build-bitgo-lib\\\":\\\"./build-bitgo-lib.sh\\\",\\\"build-bitgo-lib-v2\\\":\\\"./build-bitgo-lib.sh v2\\\"},\\\"repository\\\":{\\\"type\\\":\\\"git\\\",\\\"url\\\":\\\"git+https://github.com/pbca26/komodo-tokens-wallet.git\\\"},\\\"keywords\\\":[\\\"crypto conditions\\\",\\\"wasm\\\",\\\"tokens\\\",\\\"komodo\\\"],\\\"author\\\":\\\"Komodo Platform (https://komodoplatform.com)\\\",\\\"license\\\":\\\"MIT\\\",\\\"bugs\\\":{\\\"url\\\":\\\"https://github.com/pbca26/komodo-tokens-wallet/issues\\\"},\\\"homepage\\\":\\\"https://pbca26.github.io/komodo-tokens-wallet\\\",\\\"engines\\\":{\\\"node\\\":\\\">=12.18.3\\\"},\\\"devDependencies\\\":{\\\"@fortawesome/fontawesome-free\\\":\\\"^5.15.3\\\",\\\"autoprefixer\\\":\\\"^8.1.0\\\",\\\"babel-core\\\":\\\"^7.0.0-bridge.0\\\",\\\"babel-loader\\\":\\\"^7.1.4\\\",\\\"babel-plugin-module-resolver\\\":\\\"^3.1.0\\\",\\\"babel-plugin-transform-runtime\\\":\\\"^6.23.0\\\",\\\"babel-preset-env\\\":\\\"^1.6.1\\\",\\\"babel-preset-react\\\":\\\"^6.24.1\\\",\\\"babel-preset-stage-0\\\":\\\"^6.24.1\\\",\\\"babel-preset-stage-1\\\":\\\"^6.24.1\\\",\\\"babel-preset-stage-2\\\":\\\"^6.24.1\\\",\\\"bulma\\\":\\\"^0.9.2\\\",\\\"clean-webpack-plugin\\\":\\\"^0.1.19\\\",\\\"copy-webpack-plugin\\\":\\\"^4.5.1\\\",\\\"css-loader\\\":\\\"^0.28.11\\\",\\\"cssnano\\\":\\\"^3.10.0\\\",\\\"extract-text-webpack-plugin\\\":\\\"^4.0.0-beta.0\\\",\\\"file-loader\\\":\\\"^1.1.11\\\",\\\"gh-pages\\\":\\\"^3.2.3\\\",\\\"html-webpack-plugin\\\":\\\"^3.0.6\\\",\\\"node-sass\\\":\\\"^4.7.2\\\",\\\"offline-plugin\\\":\\\"^4.9.0\\\",\\\"postcss\\\":\\\"^6.0.19\\\",\\\"postcss-cssnext\\\":\\\"^3.0.2\\\",\\\"postcss-loader\\\":\\\"^2.1.1\\\",\\\"sass-loader\\\":\\\"^6.0.7\\\",\\\"satoshi-bitcoin\\\":\\\"^1.0.4\\\",\\\"scientific-to-decimal\\\":\\\"^1.1.1\\\",\\\"standard\\\":\\\"^11.0.1\\\",\\\"style-loader\\\":\\\"^0.20.3\\\",\\\"url-loader\\\":\\\"^1.0.1\\\",\\\"webpack\\\":\\\"^4.29.3\\\",\\\"webpack-cli\\\":\\\"^3.1.0\\\",\\\"webpack-dev-server\\\":\\\"^3.1.5\\\"},\\\"browserslist\\\":[\\\"last 5 versions\\\",\\\"chrome >= 34\\\",\\\"safari >= 6\\\",\\\"ios >= 6\\\",\\\"android >= 4.4\\\"],\\\"dependencies\\\":{\\\"axios\\\":\\\"^0.18.0\\\",\\\"babel-polyfill\\\":\\\"^6.26.0\\\",\\\"babel-runtime\\\":\\\"^6.26.0\\\",\\\"classnames\\\":\\\"^2.2.5\\\",\\\"coinselect\\\":\\\"github:bitcoinjs/coinselect\\\",\\\"cryptoconditions-js\\\":\\\"git+https://github.com/dimxy/cryptoconditions-js.git\\\",\\\"emailjs-com\\\":\\\"^3.2.0\\\",\\\"jdenticon\\\":\\\"^3.1.0\\\",\\\"mini-css-extract-plugin\\\":\\\"^1.3.0\\\",\\\"react\\\":\\\"^17.0.2\\\",\\\"react-dom\\\":\\\"^17.0.2\\\",\\\"react-hot-loader\\\":\\\"^4.13.0\\\",\\\"react-jdenticon\\\":\\\"0.0.9\\\",\\\"react-scripts\\\":\\\"4.0.3\\\",\\\"styled-components\\\":\\\"^3.2.3\\\"}}\");\n\n//# sourceURL=webpack:///./package.json?");
+eval("module.exports = JSON.parse(\"{\\\"name\\\":\\\"komodo-tokens-wallet\\\",\\\"version\\\":\\\"0.2.4\\\",\\\"description\\\":\\\"Komodo Tokens Web Wallet (CryptoConditions)\\\",\\\"main\\\":\\\"index.js\\\",\\\"scripts\\\":{\\\"start\\\":\\\"webpack-dev-server --define DEBUG\\\",\\\"build\\\":\\\"webpack --config webpack.config.js\\\",\\\"predeploy\\\":\\\"npm run build\\\",\\\"deploy\\\":\\\"gh-pages -d build\\\",\\\"build-cclib\\\":\\\"./build-cryptoconditions-lib.sh\\\",\\\"build-bitgo-lib\\\":\\\"./build-bitgo-lib.sh\\\",\\\"build-bitgo-lib-v2\\\":\\\"./build-bitgo-lib.sh v2\\\"},\\\"repository\\\":{\\\"type\\\":\\\"git\\\",\\\"url\\\":\\\"git+https://github.com/pbca26/komodo-tokens-wallet.git\\\"},\\\"keywords\\\":[\\\"crypto conditions\\\",\\\"wasm\\\",\\\"tokens\\\",\\\"komodo\\\"],\\\"author\\\":\\\"Komodo Platform (https://komodoplatform.com)\\\",\\\"license\\\":\\\"MIT\\\",\\\"bugs\\\":{\\\"url\\\":\\\"https://github.com/pbca26/komodo-tokens-wallet/issues\\\"},\\\"homepage\\\":\\\"https://pbca26.github.io/komodo-tokens-wallet\\\",\\\"engines\\\":{\\\"node\\\":\\\">=12.18.3\\\"},\\\"devDependencies\\\":{\\\"@fortawesome/fontawesome-free\\\":\\\"^5.15.3\\\",\\\"autoprefixer\\\":\\\"^8.1.0\\\",\\\"babel-core\\\":\\\"^7.0.0-bridge.0\\\",\\\"babel-loader\\\":\\\"^7.1.4\\\",\\\"babel-plugin-module-resolver\\\":\\\"^3.1.0\\\",\\\"babel-plugin-transform-runtime\\\":\\\"^6.23.0\\\",\\\"babel-preset-env\\\":\\\"^1.6.1\\\",\\\"babel-preset-react\\\":\\\"^6.24.1\\\",\\\"babel-preset-stage-0\\\":\\\"^6.24.1\\\",\\\"babel-preset-stage-1\\\":\\\"^6.24.1\\\",\\\"babel-preset-stage-2\\\":\\\"^6.24.1\\\",\\\"bulma\\\":\\\"^0.9.2\\\",\\\"clean-webpack-plugin\\\":\\\"^0.1.19\\\",\\\"copy-webpack-plugin\\\":\\\"^4.5.1\\\",\\\"css-loader\\\":\\\"^0.28.11\\\",\\\"cssnano\\\":\\\"^3.10.0\\\",\\\"extract-text-webpack-plugin\\\":\\\"^4.0.0-beta.0\\\",\\\"file-loader\\\":\\\"^1.1.11\\\",\\\"gh-pages\\\":\\\"^3.2.3\\\",\\\"html-webpack-plugin\\\":\\\"^3.0.6\\\",\\\"node-sass\\\":\\\"^4.7.2\\\",\\\"offline-plugin\\\":\\\"^4.9.0\\\",\\\"postcss\\\":\\\"^6.0.19\\\",\\\"postcss-cssnext\\\":\\\"^3.0.2\\\",\\\"postcss-loader\\\":\\\"^2.1.1\\\",\\\"sass-loader\\\":\\\"^6.0.7\\\",\\\"satoshi-bitcoin\\\":\\\"^1.0.4\\\",\\\"scientific-to-decimal\\\":\\\"^1.1.1\\\",\\\"standard\\\":\\\"^11.0.1\\\",\\\"style-loader\\\":\\\"^0.20.3\\\",\\\"url-loader\\\":\\\"^1.0.1\\\",\\\"webpack\\\":\\\"^4.29.3\\\",\\\"webpack-cli\\\":\\\"^3.1.0\\\",\\\"webpack-dev-server\\\":\\\"^3.1.5\\\"},\\\"browserslist\\\":[\\\"last 5 versions\\\",\\\"chrome >= 34\\\",\\\"safari >= 6\\\",\\\"ios >= 6\\\",\\\"android >= 4.4\\\"],\\\"dependencies\\\":{\\\"axios\\\":\\\"^0.18.0\\\",\\\"babel-polyfill\\\":\\\"^6.26.0\\\",\\\"babel-runtime\\\":\\\"^6.26.0\\\",\\\"classnames\\\":\\\"^2.2.5\\\",\\\"coinselect\\\":\\\"github:bitcoinjs/coinselect\\\",\\\"cryptoconditions-js\\\":\\\"git+https://github.com/dimxy/cryptoconditions-js.git\\\",\\\"emailjs-com\\\":\\\"^3.2.0\\\",\\\"jdenticon\\\":\\\"^3.1.0\\\",\\\"mini-css-extract-plugin\\\":\\\"^1.3.0\\\",\\\"node-telegram-bot-api\\\":\\\"^0.56.0\\\",\\\"react\\\":\\\"^17.0.2\\\",\\\"react-dom\\\":\\\"^17.0.2\\\",\\\"react-hot-loader\\\":\\\"^4.13.0\\\",\\\"react-jdenticon\\\":\\\"0.0.9\\\",\\\"react-scripts\\\":\\\"4.0.3\\\",\\\"styled-components\\\":\\\"^3.2.3\\\"}}\");\n\n//# sourceURL=webpack:///./package.json?");
 
 /***/ }),
 
@@ -210,7 +210,7 @@ eval("\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\n
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extract-plugin\n\n    if(true) {\n      // 1647101497241\n      var cssReload = __webpack_require__(/*! ./node_modules/mini-css-extract-plugin/dist/hmr/hotModuleReplacement.js */ \"./node_modules/mini-css-extract-plugin/dist/hmr/hotModuleReplacement.js\")(module.i, {\"locals\":false});\n      module.hot.dispose(cssReload);\n      module.hot.accept(undefined, cssReload);\n    }\n  \n\n//# sourceURL=webpack:///./src/Modal.scss?");
+eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extract-plugin\n\n    if(true) {\n      // 1647167381453\n      var cssReload = __webpack_require__(/*! ./node_modules/mini-css-extract-plugin/dist/hmr/hotModuleReplacement.js */ \"./node_modules/mini-css-extract-plugin/dist/hmr/hotModuleReplacement.js\")(module.i, {\"locals\":false});\n      module.hot.dispose(cssReload);\n      module.hot.accept(undefined, cssReload);\n    }\n  \n\n//# sourceURL=webpack:///./src/Modal.scss?");
 
 /***/ }),
 
@@ -270,7 +270,7 @@ eval("\n\nfunction _typeof(obj) { \"@babel/helpers - typeof\"; return _typeof = 
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extract-plugin\n\n    if(true) {\n      // 1647101490573\n      var cssReload = __webpack_require__(/*! ./node_modules/mini-css-extract-plugin/dist/hmr/hotModuleReplacement.js */ \"./node_modules/mini-css-extract-plugin/dist/hmr/hotModuleReplacement.js\")(module.i, {\"locals\":false});\n      module.hot.dispose(cssReload);\n      module.hot.accept(undefined, cssReload);\n    }\n  \n\n//# sourceURL=webpack:///./src/TransactionDetailsModal.scss?");
+eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extract-plugin\n\n    if(true) {\n      // 1647167374246\n      var cssReload = __webpack_require__(/*! ./node_modules/mini-css-extract-plugin/dist/hmr/hotModuleReplacement.js */ \"./node_modules/mini-css-extract-plugin/dist/hmr/hotModuleReplacement.js\")(module.i, {\"locals\":false});\n      module.hot.dispose(cssReload);\n      module.hot.accept(undefined, cssReload);\n    }\n  \n\n//# sourceURL=webpack:///./src/TransactionDetailsModal.scss?");
 
 /***/ }),
 
@@ -282,7 +282,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extr
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extract-plugin\n\n    if(true) {\n      // 1647101430298\n      var cssReload = __webpack_require__(/*! ./node_modules/mini-css-extract-plugin/dist/hmr/hotModuleReplacement.js */ \"./node_modules/mini-css-extract-plugin/dist/hmr/hotModuleReplacement.js\")(module.i, {\"locals\":false});\n      module.hot.dispose(cssReload);\n      module.hot.accept(undefined, cssReload);\n    }\n  \n\n//# sourceURL=webpack:///./src/app.scss?");
+eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extract-plugin\n\n    if(true) {\n      // 1647167314455\n      var cssReload = __webpack_require__(/*! ./node_modules/mini-css-extract-plugin/dist/hmr/hotModuleReplacement.js */ \"./node_modules/mini-css-extract-plugin/dist/hmr/hotModuleReplacement.js\")(module.i, {\"locals\":false});\n      module.hot.dispose(cssReload);\n      module.hot.accept(undefined, cssReload);\n    }\n  \n\n//# sourceURL=webpack:///./src/app.scss?");
 
 /***/ }),
 
@@ -294,7 +294,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extr
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extract-plugin\n\n    if(true) {\n      // 1647101430330\n      var cssReload = __webpack_require__(/*! ./node_modules/mini-css-extract-plugin/dist/hmr/hotModuleReplacement.js */ \"./node_modules/mini-css-extract-plugin/dist/hmr/hotModuleReplacement.js\")(module.i, {\"locals\":false});\n      module.hot.dispose(cssReload);\n      module.hot.accept(undefined, cssReload);\n    }\n  \n\n//# sourceURL=webpack:///./src/balance.scss?");
+eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extract-plugin\n\n    if(true) {\n      // 1647167314486\n      var cssReload = __webpack_require__(/*! ./node_modules/mini-css-extract-plugin/dist/hmr/hotModuleReplacement.js */ \"./node_modules/mini-css-extract-plugin/dist/hmr/hotModuleReplacement.js\")(module.i, {\"locals\":false});\n      module.hot.dispose(cssReload);\n      module.hot.accept(undefined, cssReload);\n    }\n  \n\n//# sourceURL=webpack:///./src/balance.scss?");
 
 /***/ }),
 
@@ -366,7 +366,7 @@ eval("\n\nvar _react = _interopRequireDefault(__webpack_require__(/*! react */ \
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extract-plugin\n\n    if(true) {\n      // 1647101497888\n      var cssReload = __webpack_require__(/*! ./node_modules/mini-css-extract-plugin/dist/hmr/hotModuleReplacement.js */ \"./node_modules/mini-css-extract-plugin/dist/hmr/hotModuleReplacement.js\")(module.i, {\"locals\":false});\n      module.hot.dispose(cssReload);\n      module.hot.accept(undefined, cssReload);\n    }\n  \n\n//# sourceURL=webpack:///./src/index.scss?");
+eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extract-plugin\n\n    if(true) {\n      // 1647167382077\n      var cssReload = __webpack_require__(/*! ./node_modules/mini-css-extract-plugin/dist/hmr/hotModuleReplacement.js */ \"./node_modules/mini-css-extract-plugin/dist/hmr/hotModuleReplacement.js\")(module.i, {\"locals\":false});\n      module.hot.dispose(cssReload);\n      module.hot.accept(undefined, cssReload);\n    }\n  \n\n//# sourceURL=webpack:///./src/index.scss?");
 
 /***/ }),
 
@@ -378,7 +378,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extr
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extract-plugin\n\n    if(true) {\n      // 1647101430308\n      var cssReload = __webpack_require__(/*! ./node_modules/mini-css-extract-plugin/dist/hmr/hotModuleReplacement.js */ \"./node_modules/mini-css-extract-plugin/dist/hmr/hotModuleReplacement.js\")(module.i, {\"locals\":false});\n      module.hot.dispose(cssReload);\n      module.hot.accept(undefined, cssReload);\n    }\n  \n\n//# sourceURL=webpack:///./src/input.scss?");
+eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extract-plugin\n\n    if(true) {\n      // 1647167314466\n      var cssReload = __webpack_require__(/*! ./node_modules/mini-css-extract-plugin/dist/hmr/hotModuleReplacement.js */ \"./node_modules/mini-css-extract-plugin/dist/hmr/hotModuleReplacement.js\")(module.i, {\"locals\":false});\n      module.hot.dispose(cssReload);\n      module.hot.accept(undefined, cssReload);\n    }\n  \n\n//# sourceURL=webpack:///./src/input.scss?");
 
 /***/ }),
 
@@ -390,7 +390,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extr
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extract-plugin\n\n    if(true) {\n      // 1647101430282\n      var cssReload = __webpack_require__(/*! ./node_modules/mini-css-extract-plugin/dist/hmr/hotModuleReplacement.js */ \"./node_modules/mini-css-extract-plugin/dist/hmr/hotModuleReplacement.js\")(module.i, {\"locals\":false});\n      module.hot.dispose(cssReload);\n      module.hot.accept(undefined, cssReload);\n    }\n  \n\n//# sourceURL=webpack:///./src/logo.scss?");
+eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extract-plugin\n\n    if(true) {\n      // 1647167314440\n      var cssReload = __webpack_require__(/*! ./node_modules/mini-css-extract-plugin/dist/hmr/hotModuleReplacement.js */ \"./node_modules/mini-css-extract-plugin/dist/hmr/hotModuleReplacement.js\")(module.i, {\"locals\":false});\n      module.hot.dispose(cssReload);\n      module.hot.accept(undefined, cssReload);\n    }\n  \n\n//# sourceURL=webpack:///./src/logo.scss?");
 
 /***/ }),
 
@@ -402,7 +402,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extr
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extract-plugin\n\n    if(true) {\n      // 1647101430337\n      var cssReload = __webpack_require__(/*! ./node_modules/mini-css-extract-plugin/dist/hmr/hotModuleReplacement.js */ \"./node_modules/mini-css-extract-plugin/dist/hmr/hotModuleReplacement.js\")(module.i, {\"locals\":false});\n      module.hot.dispose(cssReload);\n      module.hot.accept(undefined, cssReload);\n    }\n  \n\n//# sourceURL=webpack:///./src/marketplace.scss?");
+eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extract-plugin\n\n    if(true) {\n      // 1647167314495\n      var cssReload = __webpack_require__(/*! ./node_modules/mini-css-extract-plugin/dist/hmr/hotModuleReplacement.js */ \"./node_modules/mini-css-extract-plugin/dist/hmr/hotModuleReplacement.js\")(module.i, {\"locals\":false});\n      module.hot.dispose(cssReload);\n      module.hot.accept(undefined, cssReload);\n    }\n  \n\n//# sourceURL=webpack:///./src/marketplace.scss?");
 
 /***/ }),
 
@@ -426,7 +426,7 @@ eval("\n\n// ref: https://github.com/pbca26/agama-wallet-lib/blob/master/src/uti
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extract-plugin\n\n    if(true) {\n      // 1647101430316\n      var cssReload = __webpack_require__(/*! ./node_modules/mini-css-extract-plugin/dist/hmr/hotModuleReplacement.js */ \"./node_modules/mini-css-extract-plugin/dist/hmr/hotModuleReplacement.js\")(module.i, {\"locals\":false});\n      module.hot.dispose(cssReload);\n      module.hot.accept(undefined, cssReload);\n    }\n  \n\n//# sourceURL=webpack:///./src/order-info.scss?");
+eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extract-plugin\n\n    if(true) {\n      // 1647167314474\n      var cssReload = __webpack_require__(/*! ./node_modules/mini-css-extract-plugin/dist/hmr/hotModuleReplacement.js */ \"./node_modules/mini-css-extract-plugin/dist/hmr/hotModuleReplacement.js\")(module.i, {\"locals\":false});\n      module.hot.dispose(cssReload);\n      module.hot.accept(undefined, cssReload);\n    }\n  \n\n//# sourceURL=webpack:///./src/order-info.scss?");
 
 /***/ }),
 
@@ -486,7 +486,7 @@ eval("/* WEBPACK VAR INJECTION */(function(setImmediate, global) {var __WEBPACK_
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extract-plugin\n\n    if(true) {\n      // 1647101430322\n      var cssReload = __webpack_require__(/*! ./node_modules/mini-css-extract-plugin/dist/hmr/hotModuleReplacement.js */ \"./node_modules/mini-css-extract-plugin/dist/hmr/hotModuleReplacement.js\")(module.i, {\"locals\":false});\n      module.hot.dispose(cssReload);\n      module.hot.accept(undefined, cssReload);\n    }\n  \n\n//# sourceURL=webpack:///./src/transactions.scss?");
+eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extract-plugin\n\n    if(true) {\n      // 1647167314480\n      var cssReload = __webpack_require__(/*! ./node_modules/mini-css-extract-plugin/dist/hmr/hotModuleReplacement.js */ \"./node_modules/mini-css-extract-plugin/dist/hmr/hotModuleReplacement.js\")(module.i, {\"locals\":false});\n      module.hot.dispose(cssReload);\n      module.hot.accept(undefined, cssReload);\n    }\n  \n\n//# sourceURL=webpack:///./src/transactions.scss?");
 
 /***/ }),
 
