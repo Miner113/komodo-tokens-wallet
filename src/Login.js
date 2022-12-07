@@ -47,7 +47,7 @@ class Login extends React.Component {
       false
     );
 
-    this.setChain('TKLTEST');
+    this.setChain('GRMS');
   }
 
   componentWillUnmount() {
