@@ -5,6 +5,8 @@ import Login from './Login';
 import Dashboard from './Dashboard';
 import Marketplace from './Marketplace';
 import './debug-util';
+import writeLog from './log';
+import {isMobile} from 'react-device-detect';
 import './app.scss';
 import './logo.scss';
 import './input.scss';
@@ -12,6 +14,7 @@ import './order-info.scss';
 import './transactions.scss';
 import './balance.scss';
 import './marketplace.scss';
+import './responsive.scss';
 
 class App extends React.Component {
   state = this.initialState;
@@ -38,6 +41,10 @@ class App extends React.Component {
     this.setState({
       appVersion: version,
     });
+
+    if (isMobile) {
+      document.getElementById('body').className = 'mobile';
+    }
   }
 
   resetApp() {
@@ -51,11 +58,9 @@ class App extends React.Component {
       chain,
     });
 
-    if (window.DEBUG) {
-      setTimeout(() => {
-        console.warn('app this.state', this.state);
-      }, 100);
-    }
+    setTimeout(() => {
+      writeLog('app this.state', this.state);
+    }, 100);
   }
 
   setActiveView() {

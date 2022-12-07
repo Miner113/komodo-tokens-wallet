@@ -1,0 +1,33 @@
+name: TokensWebWalletTestsCI
+
+on: 
+  push:
+    branches:
+    - master
+    - dev
+
+jobs:
+  linux-run-tests:
+    name: Unit tests
+    runs-on: ubuntu-18.04
+    steps:
+    - uses: actions/checkout@v1
+    - uses: actions/setup-node@v1
+      with:
+        node-version: '12'
+        check-latest: true
+    - uses: jetli/wasm-pack-action@v0.3.0
+      with:
+        # Optional version of wasm-pack to install(eg. 'v0.9.1', 'latest')
+        version: 'latest'
+
+    - name: Install deps
+      run: |
+        npm install
+        npm install -g browserify
+        npm run build-cclib-tests
+        npm run build-bitgo-lib
+        npm run build-bitgo-lib-v2
+
+    - name: Run tests
+      run:  env TZ='Europe/Moscow' npm run test
