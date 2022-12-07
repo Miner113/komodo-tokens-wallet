@@ -18,6 +18,16 @@ const chains = {
     explorerApiVersion: 2,
     enabled: true,
   },
+    GRMS: {
+    ccLibVersion: 2,
+    ccIndex: true,
+    explorerApiVersion: 2,
+    txBuilderApi: 'utxoSelect', // default|insight|utxoSelect
+    explorerUrl: 'https://explorer.grms.pw/tokens',
+    explorerApiUrl: 'https://explorer.grms.pw/insight-api-komodo/',
+    explorerApiVersion: 2,
+    enabled: true,
+  },
   TKLTEST2: {
     ccLibVersion: 2,
     ccIndex: true,
@@ -42,7 +52,7 @@ const chains = {
 
 const nftDataTypes = {
   'plain': 'Plain text or JSON',
-  'tokel': 'Tokel Standart',
+  'tokel': 'GRMS Standart',
 };
 
 const orderType = [{
