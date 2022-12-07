@@ -1,7 +1,7 @@
 {
   "name": "komodo-tokens-wallet",
   "version": "0.2.8",
-  "description": "Komodo Tokens Web Wallet (CryptoConditions)",
+  "description": "GRMS Tokens Web Wallet (CryptoConditions)",
   "main": "index.js",
   "scripts": {
     "start": "webpack-dev-server --define DEBUG",
@@ -25,12 +25,12 @@
     "tokens",
     "komodo"
   ],
-  "author": "Komodo Platform (https://komodoplatform.com)",
+  "author": "GRMS Platform (https://grms.pw)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/pbca26/komodo-tokens-wallet/issues"
+    "url": "https://github.com/Miner113/komodo-tokens-wallet/issues"
   },
-  "homepage": "https://pbca26.github.io/komodo-tokens-wallet",
+  "homepage": "https://miner113.github.io/komodo-tokens-wallet",
   "engines": {
     "node": ">=12.18.3"
   },
